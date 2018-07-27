@@ -22,3 +22,11 @@ datatop8 = data_re[:8]
 fig = plt.figure(figsize=(18,8))
 plt.subplots_adjust(wspace=0.35,hspace=0.5)
 '''
+
+
+'''python
+import requests #用来访问网页的库，好比浏览器
+from bs4 import BeautifulSoup #爬虫库，用来抓取网页中的信息，它有一个可爱的名字beautifulsoup,寓意一碗浓汤，我要从汤中捞出不同的美味
+import time #时间模块，为了控制爬虫速度，防止由于速度过快，被 ban IP
+import csv #用来操作csv的库，这次用来创建表格，存储数据
+'''
